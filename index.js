@@ -1,4 +1,25 @@
-// =================the typing title================
+
+
+
+///////////////////////////////////////////////the observation scrolle/////////////////////////////////////
+
+
+window.onload = () => {
+
+  
+  const hideUpelements = document.querySelectorAll('.hideUP');
+
+
+
+ 
+  
+  const hideLeftelements = document.querySelectorAll('.hideleft:not(.personal-img1):not(.hero-dots)');
+const hideRightelements = document.querySelectorAll('.hideright:not(.personal-img1):not(.hero-dots)'); 
+ const imageright = document.querySelectorAll('.personal-img1');
+const dotleftTop = document.querySelectorAll('.hero-dots');
+  
+
+  // =================the typing title================
 var typed = new Typed(".typed1", {
   strings: ["Hi there! I'm"],
   typeSpeed: 25,
@@ -30,26 +51,6 @@ var typed = new Typed(".typed", {
   // loopCount: Infinity,
   showCursor: true,
 })
-
-
-///////////////////////////////////////////////the observation scrolle/////////////////////////////////////
-
-
-window.onload = () => {
-
-  
-  const hideUpelements = document.querySelectorAll('.hideUP');
-
-
-
- 
-  
-  const hideLeftelements = document.querySelectorAll('.hideleft:not(.personal-img1):not(.hero-dots)');
-const hideRightelements = document.querySelectorAll('.hideright:not(.personal-img1):not(.hero-dots)'); 
- const imageright = document.querySelectorAll('.personal-img1');
-const dotleftTop = document.querySelectorAll('.hero-dots');
-  
-  
   
   
   
