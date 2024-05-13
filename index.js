@@ -167,7 +167,7 @@ const dotleftTop = document.querySelectorAll('.hero-dots');
 var typed = new Typed(".typed1", {
   strings: ["Hi there! I'm"],
   typeSpeed: 25,
-  startDelay: 500,
+  startDelay: 200,
   backSpeed: 5,
   loop: false,
   // loopCount: Infinity,
@@ -177,7 +177,7 @@ var typed = new Typed(".typed1", {
 var typed = new Typed(".typed2", {
   strings: ["Karim Habbal"],
   typeSpeed: 25,
-  startDelay: 2400,
+  startDelay: 2100,
   backSpeed: 5,
   loop: false,
   // loopCount: Infinity,
@@ -189,7 +189,7 @@ var typed = new Typed(".typed2", {
 var typed = new Typed(".typed", {
   strings: ["Front-end developer^1000", "Web designer^3000", "Front-end developer^2000"],
   typeSpeed: 20,
-  startDelay: 500,
+  startDelay: 200,
   backSpeed: 2,
   loop: false,
   // loopCount: Infinity,
