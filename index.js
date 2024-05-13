@@ -160,12 +160,14 @@ const dotleftTop = document.querySelectorAll('.hero-dots');
 
    imageright.forEach(elemnt=>{
     observerScrollRightimage.observe(elemnt);
+
      
+     // here we are going to apply the typed text, to make sure that the typed text won't appear befor the "imageright" got obeserved and shows up (by applying  observerScrollRightimage function to it ) 
   // =================the typing title================
 var typed = new Typed(".typed1", {
   strings: ["Hi there! I'm"],
   typeSpeed: 25,
-  startDelay: 1100,
+  startDelay: 500,
   backSpeed: 5,
   loop: false,
   // loopCount: Infinity,
@@ -175,7 +177,7 @@ var typed = new Typed(".typed1", {
 var typed = new Typed(".typed2", {
   strings: ["Karim Habbal"],
   typeSpeed: 25,
-  startDelay: 3000,
+  startDelay: 2400,
   backSpeed: 5,
   loop: false,
   // loopCount: Infinity,
@@ -187,7 +189,7 @@ var typed = new Typed(".typed2", {
 var typed = new Typed(".typed", {
   strings: ["Front-end developer^1000", "Web designer^3000", "Front-end developer^2000"],
   typeSpeed: 20,
-  startDelay: 1100,
+  startDelay: 500,
   backSpeed: 2,
   loop: false,
   // loopCount: Infinity,
