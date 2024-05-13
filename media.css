@@ -1,0 +1,434 @@
+@media (max-width: 1073px){
+  header{
+   padding: 0 4rem;
+  }
+ }
+ 
+ @media (max-width: 926px){
+   
+    html{
+     font-size:50.5%;
+    }
+
+
+   
+  }
+ 
+  @media (max-width: 810px){
+   
+   html{
+    font-size:45.5%;
+   }
+   
+   .projects-content{
+     grid-template-columns: repeat(8,1fr);
+ 
+   }
+ 
+   .centered1{
+     grid-column: span 4;
+   }
+ 
+   .skills-wrap-70{
+     width: 90%;
+     }
+ }
+ 
+ 
+ @media (max-width: 708px){
+
+  .contact-content {
+    font-size: 15px;
+    line-height: 1.5;
+    font-weight: 500;
+    color: var(--gray);
+  }
+   
+   html{
+    font-size:40.5%;
+   }
+  
+   .about-me-text p {
+    font-size: 2rem;
+  }
+
+ }
+ 
+ 
+ /* here we start with ipad version */
+ 
+ @media (max-width: 678px){
+   
+   html{
+    font-size:40.5%;
+   }
+  
+   .list-btn{
+       display: block;
+       z-index: 1000;
+      
+       
+   }
+ 
+   .header-nav{
+     background-color: var(--background);
+     position: fixed;
+     padding-left: 100px;
+     
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100vh;
+     z-index: 1000;
+     font-size: 5.2rem;
+     display: flex;
+     flex-direction: column;
+     align-items: start;
+     justify-content: center;
+     
+     row-gap: 5.2rem;
+    
+     border-bottom: 2px solid var(--gray);
+     margin-bottom: 100px;
+     
+     pointer-events: none; 
+     visibility: hidden; 
+       display: none; 
+      transform: translateX(100%);
+      opacity: 0;
+ 
+ 
+   }
+ 
+ .nav-open .header-nav{
+   pointer-events: auto; 
+   visibility: visible; 
+     display: flex; 
+    transform: translateX(0%);
+    opacity: 1;
+ }
+ 
+ /* the one witt this class will open only */
+   .opne-now{
+     display: flex;
+     z-index: 2000;
+   }
+ 
+ }
+ 
+ 
+ 
+ @media (max-width: 581px){
+   html{
+     font-size: 35.5%;
+   }
+ }
+ 
+
+ /* here we start with the mobile version */
+ @media (max-width: 553px) {
+   
+   html{
+     font-size: 45%;
+   }
+   
+ 
+   .contact-button {
+     font-size: 3.4rem;}
+ 
+     
+     .hero-content {
+       flex-direction: column;
+       justify-content: center;
+       gap: 8rem;
+       align-items: start;
+       padding-top: 7rem;
+     }
+ 
+   .right-content{
+     align-self: center;
+   }
+   
+   .header-nav {
+     font-size: 4.2rem;
+   padding-left: 7rem;}
+ 
+   .project-card{
+     height: 400px;
+   }
+
+   .personal-img1{
+    
+    width: 30.4rem;
+
+  }
+
+
+ }
+ 
+ /* to start the slider */
+ @media (max-width:502px){
+ 
+   .projects-content{
+    
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+   }
+
+
+    
+     .project-card {
+       height: 458px;
+       width: 89%;
+       
+ }
+ 
+ .dots{
+  display: flex;
+ }
+
+/* meaning all the slider elements, i just called them slider in the html*/
+ .slider{
+  display: none;
+  
+ 
+ 
+}
+
+
+
+.showright{
+  display: block;
+  animation: fade1 0.5s ease forwards;
+  
+}
+
+.showleft{
+  display: block;
+  animation: fade2 0.5s ease forwards;
+  
+}
+
+/*========= other projects========== */
+.first-project1, .second-project2{
+  display: grid;
+  grid-template-columns:  1fr;
+  column-gap: 5rem;
+  align-items: center;
+  row-gap: 32px;
+  
+}
+
+.other-project-text p {
+  margin-bottom: 2rem;
+  font-size: 16px;}
+
+  .other-card-title {
+
+    font-size: 24px;
+  }
+
+  .Github {
+
+    font-size: 16px;}
+
+
+
+    .second-project2 .withimage{
+      grid-row: 1;
+    }
+
+    .slider2{
+      display: none;
+     
+    }
+
+    .showright2{
+      display: grid ;
+      
+      animation: fade1 0.5s ease forwards;
+    }
+
+    .showleft2{
+      display: grid;
+      
+      animation: fade2 0.5s ease forwards;
+      
+    }
+
+    /* about me section */
+    
+.about-me-content{
+  flex-direction: column;
+ 
+}
+
+.about-me-text{
+  width: 100%;
+}
+.about-me-content img{
+  width: 85%;
+}
+
+.about-me-content h3 {
+  font-size: 3.8rem;
+
+}
+
+
+.about-me-text p {
+  font-size: 2.8rem;
+ 
+}
+
+.contact-content {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+.left-content {
+font-size: 3.5rem;
+}
+
+.left-content {
+font-size: 3.5rem;
+}
+
+
+h1 {
+font-size: 4.4rem;
+margin-bottom: 2rem;
+}
+
+ }
+ 
+ 
+ @media (max-width: 483px){
+  
+
+  .left-content {
+  font-size: 3.5rem;
+}
+
+.left-content {
+  font-size: 3.5rem;
+}
+
+
+h1 {
+  font-size: 4.4rem;
+  margin-bottom: 2rem;
+}
+ 
+  
+   .other-project-text p {
+    margin-bottom: 2rem;
+    font-size: 17px;}
+
+   
+ }
+ 
+ 
+ 
+ @media (max-width:412px){
+
+
+  .about-me-content h3 {
+    font-size: 4.8rem;
+  
+  }
+  
+  
+  .about-me-text p {
+    font-size: 3.4rem;
+  }
+
+  .other-project-text p {
+    margin-bottom: 25px;
+    font-size: 16px;
+  }
+   
+   html{
+     font-size: 35%;
+ }
+ 
+ .left-text{
+   font-size: 4.5rem;
+ }
+ 
+ .hero-content {
+   flex-direction: column;
+   justify-content: center;
+   gap: 10rem;
+   align-items: start;
+   padding-top: 7rem;
+ }
+
+ .personal-img1 {
+  
+  width: 38.4rem;
+ 
+}
+
+ }
+
+ @media (max-width:380px){
+  .other-card-title {
+    font-size: 20px;
+  }
+ }
+ @media (max-width:352px){
+ 
+  .other-card-title {
+    font-size: 17px;
+  }
+
+   .project-card {
+     height: 414px;
+     width: 89%;
+     
+ }
+ 
+ .left-text{
+   font-size: 4rem;
+ }
+
+ .personal-img1 {
+  width: 34.4rem;
+}
+
+.left-text {
+  font-size: 3.5rem;
+}
+
+}
+ 
+ @media (max-width:322px){
+   html{
+     font-size: 34%;
+ }
+
+}
+ 
+ 
+ 
+
+
+/* animation */
+@keyframes fade1 {
+  from {display: none;
+  transform: translate(-20%);}
+  to {
+    transform: translate(0%);}
+}
+
+@keyframes fade2 {
+  from {
+  transform: translate(20%);}
+  to {
+    transform: translate(0%);}
+}
