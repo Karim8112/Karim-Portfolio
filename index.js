@@ -19,39 +19,6 @@ const hideRightelements = document.querySelectorAll('.hideright:not(.personal-im
 const dotleftTop = document.querySelectorAll('.hero-dots');
   
 
-  // =================the typing title================
-var typed = new Typed(".typed1", {
-  strings: ["Hi there! I'm"],
-  typeSpeed: 25,
-  startDelay: 1100,
-  backSpeed: 5,
-  loop: false,
-  // loopCount: Infinity,
-  showCursor: false,
-})
-
-var typed = new Typed(".typed2", {
-  strings: ["Karim Habbal"],
-  typeSpeed: 25,
-  startDelay: 3000,
-  backSpeed: 5,
-  loop: false,
-  // loopCount: Infinity,
-  showCursor: false,
-})
-
-
-
-var typed = new Typed(".typed", {
-  strings: ["Front-end developer^1000", "Web designer^3000", "Front-end developer^2000"],
-  typeSpeed: 20,
-  startDelay: 1100,
-  backSpeed: 2,
-  loop: false,
-  // loopCount: Infinity,
-  showCursor: true,
-})
-  
   
   
   // applying the scrolling
@@ -193,6 +160,40 @@ var typed = new Typed(".typed", {
 
    imageright.forEach(elemnt=>{
     observerScrollRightimage.observe(elemnt);
+     
+  // =================the typing title================
+var typed = new Typed(".typed1", {
+  strings: ["Hi there! I'm"],
+  typeSpeed: 25,
+  startDelay: 1100,
+  backSpeed: 5,
+  loop: false,
+  // loopCount: Infinity,
+  showCursor: false,
+})
+
+var typed = new Typed(".typed2", {
+  strings: ["Karim Habbal"],
+  typeSpeed: 25,
+  startDelay: 3000,
+  backSpeed: 5,
+  loop: false,
+  // loopCount: Infinity,
+  showCursor: false,
+})
+
+
+
+var typed = new Typed(".typed", {
+  strings: ["Front-end developer^1000", "Web designer^3000", "Front-end developer^2000"],
+  typeSpeed: 20,
+  startDelay: 1100,
+  backSpeed: 2,
+  loop: false,
+  // loopCount: Infinity,
+  showCursor: true,
+})
+  
   })
 
 
